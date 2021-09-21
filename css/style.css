@@ -1,0 +1,44 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&family=Raleway:wght@300;400;500;600&display=swap');
+/*global css*/
+:root{
+    /*global color*/
+    --primary-color:#fff;
+    --secondary-color:#5e5e5e;
+    --text-color:#124265;
+    --header-color:#fd680e;
+    --accent-color:#5a2c10;
+    
+    /*global font*/
+    --primary-font:'Poppins', sans-serif;;
+    --secondary-font:'Raleway', sans-serif;;
+}
+body{
+  font-family: var(--primary-font);
+}
+h1 h2 h3 h4 h5 h6{
+    font-family:var(--secondary-font) ;
+}
+/* Header  */
+a.nav-link {
+    color: var(--primary-color)!important;
+}
+a.nav-link:hover{
+    color:var(--header-color)!important;
+}
+button.header-btn {
+    padding: 7px 19px;
+    border: 2px solid var(--accent-color);
+    border-radius: 23px;
+}
+button.header-btn:hover{
+    background:  var(--header-color);
+    color:var(--accent-color);
+    border:none;
+}
+a.navbar-brand {
+    color:var(--header-color)!important;
+}
+section#header {
+   background: var(--text-color);
+}
