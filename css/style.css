@@ -6,9 +6,9 @@
     --primary-color:#fff;
     --secondary-color:#5e5e5e;
     --text-color:#124265;
-    --header-color:#fd680e;
-    --accent-color:#5a2c10;
-    
+    --header-color:#FBBC05;
+    --accent-color:#EE257D;
+    --black-color:#000000;
     /*global font*/
     --primary-font:'Poppins', sans-serif;;
     --secondary-font:'Raleway', sans-serif;;
@@ -28,7 +28,7 @@ a.nav-link:hover{
 }
 button.header-btn {
     padding: 7px 19px;
-    border: 2px solid var(--accent-color);
+    border: 2px solid var(--header-color);
     border-radius: 23px;
 }
 button.header-btn:hover{
@@ -41,4 +41,23 @@ a.navbar-brand {
 }
 section#header {
    background: var(--text-color);
+}
+.fixed-top {
+    z-index: 99999;
+}
+/* Hero-section  */
+section#Hero-section {
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.hero-inner h1{
+    color:var(--header-color);
+}
+.hero-inner p{
+    color: var(--primary-color);
+}
+button.read-btn {
+    border: none;
+    background: var(--accent-color);
 }
