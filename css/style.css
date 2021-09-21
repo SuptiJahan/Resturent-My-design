@@ -13,11 +13,13 @@
     --primary-font:'Poppins', sans-serif;;
     --secondary-font:'Raleway', sans-serif;;
 }
-body{
+body p{
   font-family: var(--primary-font);
+  color: var(--secondary-color);
 }
 h1 h2 h3 h4 h5 h6{
     font-family:var(--secondary-font) ;
+    
 }
 /* Header  */
 a.nav-link {
@@ -52,7 +54,7 @@ section#Hero-section {
     background-size: cover;
 }
 .hero-inner h1{
-    color:var(--header-color);
+    color:gold;
 }
 .hero-inner p{
     color: var(--primary-color);
@@ -61,3 +63,17 @@ button.read-btn {
     border: none;
     background: var(--accent-color);
 }
+/* menu  */
+.menu_inner {
+    border: none;
+    box-shadow: 0 5px 26px 0 rgb(68 88 144 / 14%);
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #fff;
+}
+.menu_inner p{
+    font-size: 14px;
+    color: var(--secondary-color);
+}
+/* section#menu h3 h4 {
+   color: var(--text-color)!important;
+} */
