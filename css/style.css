@@ -84,3 +84,13 @@ ul li{
 ul{
     padding-left: 0!important;
 }
+/* owner */
+img.slide {
+    width: 20%;
+    border-radius: 70%;
+    margin: 10% 26% 3% 25%;
+}
+div#carouselExampleControls {
+    background-color:var(--accent-color);
+    border-radius: 5%;
+}
