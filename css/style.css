@@ -77,3 +77,10 @@ button.read-btn {
 /* section#menu h3 h4 {
    color: var(--text-color)!important;
 } */
+/* about  */
+ul li{
+    list-style: none;
+}
+ul{
+    padding-left: 0!important;
+}
