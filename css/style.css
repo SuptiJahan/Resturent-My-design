@@ -104,7 +104,7 @@ div#carouselExampleControls {
     margin: 14% 26%  3%  26%;
 }
 .card-body h5{
-    color:var(--header-color);
+    color:var(--text-color);
 }
 .card-body p {
     font-size: 15px;
@@ -128,3 +128,18 @@ div#carouselExampleControls {
     margin-top:-15px;
     transition: .04s all;
 }
+/* food-quality  */
+.food-title{
+    color:var(--accent-color);
+}
+i.skill {
+    float: right;
+  }
+  .progress_inner {
+    color: var(--accent-color);
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .progress_bar {
+    background-color:var(--text-color);
+  }
