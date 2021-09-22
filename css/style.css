@@ -84,6 +84,17 @@ ul li{
 ul{
     padding-left: 0!important;
 }
+/* Menu-card  */
+.menu-card-inner img {
+    width: 13%;
+    border-radius: 63%;
+}
+.menu-card-inner h6{
+    color:var(--text-color);
+}
+.title h2 {
+    padding-left: 31%;
+}
 /* owner */
 img.slide {
     width: 20%;
@@ -147,3 +158,24 @@ i.skill {
   .title h2{
       color: var(--text-color);
   }
+
+.order-form{
+    background-color: #fff;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: .25rem;
+}
+.order_title{
+    color:var(--text-color);
+}
+button.last-button {
+    margin-left: 37%;
+    padding: 8px 23px;
+    border: none;
+    color:var(--black-color);
+    background: var(--header-color);
+    border-radius: 20px;
+}
+button.last-button:hover{
+    background: var(--accent-color);
+}
