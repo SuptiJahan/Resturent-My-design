@@ -94,3 +94,37 @@ div#carouselExampleControls {
     background-color:var(--accent-color);
     border-radius: 5%;
 }
+.carousel-item p{
+    color: var(--primary-color); 
+}
+/* chefs-section  */
+.card img {
+    width: 49%;
+    border-radius: 28%;
+    margin: 14% 26%  3%  26%;
+}
+.card-body h5{
+    color:var(--header-color);
+}
+.card-body p {
+    font-size: 15px;
+}
+.social.icon i {
+    background-color: #1e4356!important;
+    color: white!important;
+    margin: 5% 0px 63% 179%;
+}
+.social a i:hover{
+    background-color:var(--primary-color)!important;
+    color: var(--text-color)!important;
+}
+.card{
+    background-color: #fff;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: .25rem;
+}
+.card:hover{
+    margin-top:-15px;
+    transition: .04s all;
+}
